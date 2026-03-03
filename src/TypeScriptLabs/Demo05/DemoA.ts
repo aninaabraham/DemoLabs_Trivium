@@ -1,10 +1,6 @@
 console.info("------------ DEMO: Check for FALSE");
 
-
-export { };
-
-
-let values = [false, 0, "", null, undefined, NaN];
+let values = [false, 0, -0, 0n, "", null, undefined, NaN];
 
 
 for (let v of values) {
@@ -15,13 +11,14 @@ for (let v of values) {
     }
 }
 
-
+console.log("---------------");
 
 // This can be a really useful feature.
 let count = 0;
 let value = count || 10;
 console.log(value);                 // 10  <- because 0 is false!
 
+console.log("---------------");
 
 
 console.log(Boolean(""));           // false

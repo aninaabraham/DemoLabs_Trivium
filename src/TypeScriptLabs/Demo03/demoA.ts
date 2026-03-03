@@ -1,6 +1,7 @@
+export { };
+
 console.info("------------ DEMO: Basic Declaration Differences");
 
-export { };
 
 let a = 10;
 a = 20;             // allowed

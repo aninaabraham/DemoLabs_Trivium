@@ -32,5 +32,7 @@ name = "Manoj Kumar Sharma";
 console.log(name);
 console.log(age);
 
+console.log("Name:" + name + "Age: " + age);
+
 // Template literal
 console.log(`Name: ${name}, Age: ${age}`);

@@ -4,7 +4,8 @@ console.info("------------ DEMO: Using the `typeof` Operator");
 let x = null;
 console.log(typeof x);                      // "object"
 
-
+let y;
+console.log(typeof y);                      // "undefined"
 
 let testLet;                                // declared but not assigned. So it is "undefined"
 
@@ -17,7 +18,8 @@ if (typeof testLet === "undefined") {
 
 
 /***********
-    The typeof operator is particularly useful for checking undeclared variables without throwing a ReferenceError.
+    The typeof operator is particularly useful for checking undeclared variables 
+    without throwing a ReferenceError.
     A direct comparison 
         unDeclaredVariable === undefined  OR    unDeclaredVariable == undefined
         unDeclaredVariable === null       OR    unDeclaredVariable == null

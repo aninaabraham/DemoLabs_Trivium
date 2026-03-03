@@ -138,7 +138,7 @@ Introduces to:
 | Redeclare   | YES | NO   | NO    |
 | Block Scope | NO  | YES  | YES   |
 | Hoisted     | YES	| Yes* | Yes*  |
-| Recommended | YES | YES  | YES   |
+| Recommended | NO | YES  | YES   |
 
 	Yes* Temporal Dead Zone (TDZ)
 	(https://www.geeksforgeeks.org/javascript/temporal-dead-zone-in-javascript/)
@@ -183,3 +183,77 @@ Demonstrates:
 
 ---
 
+Demo 06: Functions
+
+- Parameter typing
+- Return type
+- Optional parameters
+- Default parameters
+- Type inference
+- JSDoc style documentation
+- Arrow Functions
+
+---
+
+Demo 07: Function Overloads
+
+- Overloads
+- Union types
+- Type narrowing
+- Runtime safety
+- Arrow Functions
+
+---
+
+Demo 08: Union Types and Type Narrowing
+
+- What is a Union Type?
+- Why TypeScript restricts access
+- How Type Narrowing works
+- typeof narrowing
+- instanceof narrowing
+
+- Object Vs Primitive
+
+---
+
+Demo 09: Class
+
+- Class
+- Constructor
+- Methods
+- Readonly members
+- Parameter Properties
+- Inheritance
+- Access Modifiers - public, private, protected
+- Getters and Setters
+- Static members
+- Abstract Classes
+
+---
+
+Demo 10: Example
+
+---
+
+Demo 11: Interface
+
+Characteristics of an Interface in TypeScript
+- No constructor
+- No implementation
+- No access modifiers
+- No runtime presence
+- A class can implement any number of interfaces
+
+Characteristics of an Abstract Class in TypeScript
+- Can have constructor
+- Can have concrete methods or abstract methods
+- Can have access modifiers
+- Exists at runtime
+- A class can extend only one super class
+
+---
+
+Demo 12: Generics
+
+---
